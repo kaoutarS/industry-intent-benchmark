@@ -1,0 +1,51 @@
+sequence,count
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,812
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,279
+/hbw/unload → /hbw/unload → /hbw/unload,274
+/hbw/unload → /hbw/unload → /vgr/pick_up_and_transport,263
+/hbw/unload → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,263
+/hbw/unload → /hbw/unload → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,239
+/hbw/unload → /hbw/unload → /hbw/unload → /vgr/pick_up_and_transport,238
+/hbw/unload → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,238
+/hbw/unload → /hbw/unload → /hbw/unload → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,238
+/hbw/unload → /hbw/unload → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,231
+/hbw/get_empty_bucket → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,221
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/store_empty_bucket,203
+/vgr/pick_up_and_transport → /hbw/get_empty_bucket → /vgr/pick_up_and_transport,202
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/store_empty_bucket,182
+/vgr/pick_up_and_transport → /hw/human_review → /hw/human_review,171
+/wt/pick_up_and_transport → /wt/pick_up_and_transport → /wt/pick_up_and_transport,170
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hw/human_review,170
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hw/human_review → /hw/human_review,164
+/vgr/pick_up_and_transport → /hbw/store_empty_bucket → /vgr/pick_up_and_transport,163
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hw/human_review,156
+/vgr/pick_up_and_transport → /hbw/get_empty_bucket → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,156
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hw/human_review → /hw/human_review,156
+/hw/human_review → /hw/human_review → /hw/human_review,153
+/vgr/pick_up_and_transport → /hw/human_review → /hw/human_review → /hw/human_review,150
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hw/human_review → /hw/human_review → /hw/human_review,149
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport,135
+/hbw/unload → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/store_empty_bucket,134
+/vgr/pick_up_and_transport → /hbw/store_empty_bucket → /hbw/store_empty_bucket,127
+/hbw/store_empty_bucket → /vgr/pick_up_and_transport → /hbw/store_empty_bucket,127
+/mm/deburr → /mm/deburr → /mm/deburr,126
+/ov/burn → /ov/burn → /wt/pick_up_and_transport,123
+/vgr/pick_up_and_transport → /hbw/store → /hbw/store,122
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/store,119
+/vgr/pick_up_and_transport → /ov/burn → /ov/burn,118
+/hbw/store → /hbw/store → /hbw/store,118
+/vgr/pick_up_and_transport → /hbw/store → /hbw/store → /hbw/store,118
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/store → /hbw/store,117
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/store → /hbw/store → /hbw/store,117
+/sm/transport → /sm/transport → /sm/transport,116
+/ov/burn → /ov/burn → /ov/burn,115
+/ov/burn → /wt/pick_up_and_transport → /wt/pick_up_and_transport,112
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/store_empty_bucket → /hbw/store_empty_bucket,110
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/store_empty_bucket → /hbw/store_empty_bucket,106
+/hbw/store_empty_bucket → /vgr/pick_up_and_transport → /hbw/store_empty_bucket → /vgr/pick_up_and_transport,105
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /ov/burn,104
+/vgr/pick_up_and_transport → /ov/burn → /ov/burn → /ov/burn,101
+/vgr/pick_up_and_transport → /vgr/pick_up_and_transport → /hbw/get_empty_bucket,101
+/wt/pick_up_and_transport → /mm/mill → /mm/mill,98
+/mm/mill → /mm/mill → /mm/mill,98
+/wt/pick_up_and_transport → /mm/mill → /mm/mill → /mm/mill,95

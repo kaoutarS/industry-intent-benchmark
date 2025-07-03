@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 2,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick \u2192 pick_mod",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 3,
+    "Scope of Service": "inventory unloading",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse"
+    ],
+    "Activity": "unload \u2192 unload \u2192 unload",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item removed from storage"
+  },
+  {
+    "id": 4,
+    "Scope of Service": "inventory unloading, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item retrieved"
+  },
+  {
+    "id": 5,
+    "Scope of Service": "inventory unloading, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 6,
+    "Scope of Service": "inventory unloading, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 7,
+    "Scope of Service": "inventory unloading, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 unload \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item removed from storage \u2192 item retrieved"
+  },
+  {
+    "id": 8,
+    "Scope of Service": "inventory unloading, warehouse handling_mod",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 pick \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 9,
+    "Scope of Service": "inventory unloading, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 unload \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item removed from storage \u2192 item retrieved \u2192 item retrieved_mod"
+  },
+  {
+    "id": 10,
+    "Scope of Service": "inventory unloading, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 pick \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 11,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 12,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment_mod",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": 13,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 14,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment_mod",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": 15,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": 16,
+    "Scope of Service": "warehouse handling_mod",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "wt"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 17,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 18,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 19,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 store \u2192 pick",
+    "Outcome": "item retrieved \u2192 item stored in designated slot \u2192 item retrieved"
+  },
+  {
+    "id": 20,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 21,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 22,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 23,
+    "Scope of Service": NaN,
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw"
+    ],
+    "Activity": NaN,
+    "Outcome": NaN
+  },
+  {
+    "id": 24,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": 25,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 26,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 27,
+    "Scope of Service": "inventory unloading, storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 pick \u2192 pick \u2192 pick \u2192 store_mod",
+    "Outcome": "item removed from storage \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": 28,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": 29,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "store \u2192 pick \u2192 store",
+    "Outcome": "item stored in designated slot \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": 30,
+    "Scope of Service": NaN,
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "mm"
+    ],
+    "Activity": NaN,
+    "Outcome": NaN
+  },
+  {
+    "id": 31,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "wt"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved_mod"
+  },
+  {
+    "id": 32,
+    "Scope of Service": "storage operations, warehouse handling_mod",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": 33,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": 34,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "robotic arm"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved_mod"
+  },
+  {
+    "id": 35,
+    "Scope of Service": "storage operations_mod",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse"
+    ],
+    "Activity": "store \u2192 store \u2192 store",
+    "Outcome": "item stored in designated slot \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": 36,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 store \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": 37,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": 38,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": 39,
+    "Scope of Service": "intra-factory transport",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "sm"
+    ],
+    "Activity": "transport \u2192 transport \u2192 transport",
+    "Outcome": "item moved to target location \u2192 item moved to target location \u2192 item moved to target location"
+  },
+  {
+    "id": 40,
+    "Scope of Service": NaN,
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov"
+    ],
+    "Activity": NaN,
+    "Outcome": NaN
+  },
+  {
+    "id": 41,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "wt"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 42,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": 43,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": 44,
+    "Scope of Service": "storage operations, warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "store \u2192 pick \u2192 store \u2192 pick",
+    "Outcome": "item stored in designated slot \u2192 item retrieved \u2192 item stored in designated slot \u2192 item retrieved"
+  },
+  {
+    "id": 45,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved_mod"
+  },
+  {
+    "id": 46,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "robotic arm"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": 47,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": 48,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "mm",
+      "wt"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": 49,
+    "Scope of Service": NaN,
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "mm"
+    ],
+    "Activity": NaN,
+    "Outcome": NaN
+  },
+  {
+    "id": 50,
+    "Scope of Service": "warehouse handling",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "mm",
+      "wt"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  }
+]

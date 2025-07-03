@@ -1,0 +1,51 @@
+Scope of Service,Attribute,Things,Activity,Outcome
+warehouse handling,operator with permission to modify equipment,robotic arm,pick → pick → pick,item retrieved → item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,robotic arm,pick → pick → pick → pick,item retrieved → item retrieved → item retrieved → item retrieved
+inventory unloading,operator with permission to modify equipment,high-bay warehouse,unload → unload → unload,item removed from storage → item removed from storage → item removed from storage
+"inventory unloading, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",unload → unload → pick,item removed from storage → item removed from storage → item retrieved
+"inventory unloading, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",unload → pick → pick,item removed from storage → item retrieved → item retrieved
+"inventory unloading, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",unload → unload → pick → pick,item removed from storage → item removed from storage → item retrieved → item retrieved
+"inventory unloading, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",unload → unload → unload → pick,item removed from storage → item removed from storage → item removed from storage → item retrieved
+"inventory unloading, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",unload → pick → pick → pick,item removed from storage → item retrieved → item retrieved → item retrieved
+"inventory unloading, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",unload → unload → unload → pick → pick,item removed from storage → item removed from storage → item removed from storage → item retrieved → item retrieved
+"inventory unloading, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",unload → unload → pick → pick → pick,item removed from storage → item removed from storage → item retrieved → item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick,item retrieved → item retrieved
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick → store,item retrieved → item retrieved → item stored in designated slot
+warehouse handling,operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick,item retrieved → item retrieved
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick → pick → store,item retrieved → item retrieved → item retrieved → item stored in designated slot
+warehouse handling,operator with permission to modify equipment,"hw, robotic arm",pick,item retrieved
+warehouse handling,operator with permission to modify equipment,wt,pick → pick → pick,item retrieved → item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,"hw, robotic arm",pick → pick,item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,"hw, robotic arm",pick → pick,item retrieved → item retrieved
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → store → pick,item retrieved → item stored in designated slot → item retrieved
+warehouse handling,operator with permission to modify equipment,"hw, robotic arm",pick → pick → pick,item retrieved → item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick → pick,item retrieved → item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,"hw, robotic arm",pick → pick → pick,item retrieved → item retrieved → item retrieved
+,operator with permission to modify equipment,hw,,
+warehouse handling,operator with permission to modify equipment,"hw, robotic arm",pick,item retrieved
+warehouse handling,operator with permission to modify equipment,"hw, robotic arm",pick → pick,item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,robotic arm,pick → pick → pick → pick → pick,item retrieved → item retrieved → item retrieved → item retrieved → item retrieved
+"inventory unloading, storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",unload → pick → pick → pick → store,item removed from storage → item retrieved → item retrieved → item retrieved → item stored in designated slot
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → store → store,item retrieved → item stored in designated slot → item stored in designated slot
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",store → pick → store,item stored in designated slot → item retrieved → item stored in designated slot
+,operator with permission to modify equipment,mm,,
+warehouse handling,operator with permission to modify equipment,"ov, wt",pick,item retrieved
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → store → store,item retrieved → item stored in designated slot → item stored in designated slot
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick → store,item retrieved → item retrieved → item stored in designated slot
+warehouse handling,operator with permission to modify equipment,"ov, robotic arm",pick,item retrieved
+storage operations,operator with permission to modify equipment,high-bay warehouse,store → store → store,item stored in designated slot → item stored in designated slot → item stored in designated slot
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → store → store → store,item retrieved → item stored in designated slot → item stored in designated slot → item stored in designated slot
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick → store → store,item retrieved → item retrieved → item stored in designated slot → item stored in designated slot
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick → store → store → store,item retrieved → item retrieved → item stored in designated slot → item stored in designated slot → item stored in designated slot
+intra-factory transport,operator with permission to modify equipment,sm,transport → transport → transport,item moved to target location → item moved to target location → item moved to target location
+,operator with permission to modify equipment,ov,,
+warehouse handling,operator with permission to modify equipment,"ov, wt",pick → pick,item retrieved → item retrieved
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick → store → store,item retrieved → item retrieved → item stored in designated slot → item stored in designated slot
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick → pick → store → store,item retrieved → item retrieved → item retrieved → item stored in designated slot → item stored in designated slot
+"storage operations, warehouse handling",operator with permission to modify equipment,"high-bay warehouse, robotic arm",store → pick → store → pick,item stored in designated slot → item retrieved → item stored in designated slot → item retrieved
+warehouse handling,operator with permission to modify equipment,"ov, robotic arm",pick → pick,item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,"ov, robotic arm",pick,item retrieved
+warehouse handling,operator with permission to modify equipment,"high-bay warehouse, robotic arm",pick → pick,item retrieved → item retrieved
+warehouse handling,operator with permission to modify equipment,"mm, wt",pick,item retrieved
+,operator with permission to modify equipment,mm,,
+warehouse handling,operator with permission to modify equipment,"mm, wt",pick,item retrieved

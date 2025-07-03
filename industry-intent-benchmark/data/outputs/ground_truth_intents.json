@@ -1,0 +1,541 @@
+[
+  {
+    "id": "intent_1",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_2",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_3",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse"
+    ],
+    "Activity": "unload \u2192 unload \u2192 unload",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item removed from storage"
+  },
+  {
+    "id": "intent_4",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item retrieved"
+  },
+  {
+    "id": "intent_5",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_6",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_7",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 unload \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item removed from storage \u2192 item retrieved"
+  },
+  {
+    "id": "intent_8",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 pick \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_9",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 unload \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item removed from storage \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_10",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 unload \u2192 pick \u2192 pick \u2192 pick",
+    "Outcome": "item removed from storage \u2192 item removed from storage \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_11",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_12",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_13",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_14",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_15",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": "intent_16",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "wt"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_17",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_18",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_19",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 store \u2192 pick",
+    "Outcome": "item retrieved \u2192 item stored in designated slot \u2192 item retrieved"
+  },
+  {
+    "id": "intent_20",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_21",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_22",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_23",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw"
+    ],
+    "Activity": "",
+    "Outcome": ""
+  },
+  {
+    "id": "intent_24",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": "intent_25",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "hw",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_26",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick \u2192 pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_27",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "unload \u2192 pick \u2192 pick \u2192 pick \u2192 store",
+    "Outcome": "item removed from storage \u2192 item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_28",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_29",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "store \u2192 pick \u2192 store",
+    "Outcome": "item stored in designated slot \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_30",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "mm"
+    ],
+    "Activity": "",
+    "Outcome": ""
+  },
+  {
+    "id": "intent_31",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "wt"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": "intent_32",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_33",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_34",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "robotic arm"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": "intent_35",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse"
+    ],
+    "Activity": "store \u2192 store \u2192 store",
+    "Outcome": "item stored in designated slot \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_36",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 store \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_37",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_38",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_39",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "sm"
+    ],
+    "Activity": "transport \u2192 transport \u2192 transport",
+    "Outcome": "item moved to target location \u2192 item moved to target location \u2192 item moved to target location"
+  },
+  {
+    "id": "intent_40",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov"
+    ],
+    "Activity": "",
+    "Outcome": ""
+  },
+  {
+    "id": "intent_41",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "wt"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_42",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_43",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick \u2192 pick \u2192 store \u2192 store",
+    "Outcome": "item retrieved \u2192 item retrieved \u2192 item retrieved \u2192 item stored in designated slot \u2192 item stored in designated slot"
+  },
+  {
+    "id": "intent_44",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "store \u2192 pick \u2192 store \u2192 pick",
+    "Outcome": "item stored in designated slot \u2192 item retrieved \u2192 item stored in designated slot \u2192 item retrieved"
+  },
+  {
+    "id": "intent_45",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_46",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "ov",
+      "robotic arm"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": "intent_47",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "high-bay warehouse",
+      "robotic arm"
+    ],
+    "Activity": "pick \u2192 pick",
+    "Outcome": "item retrieved \u2192 item retrieved"
+  },
+  {
+    "id": "intent_48",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "mm",
+      "wt"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  },
+  {
+    "id": "intent_49",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "mm"
+    ],
+    "Activity": "",
+    "Outcome": ""
+  },
+  {
+    "id": "intent_50",
+    "Scope": "",
+    "Attribute": "operator with permission to modify equipment",
+    "Things": [
+      "mm",
+      "wt"
+    ],
+    "Activity": "pick",
+    "Outcome": "item retrieved"
+  }
+]
