@@ -1,0 +1,1 @@
+This benchmark provides a reusable, few-shot evaluation dataset for intent extraction in smart manufacturing using real-world IoT-enriched event logs. It supports benchmarking LLMs on extracting structured industrial intents (Scope, Attribute, Things, Activity, Outcome) from natural language.
